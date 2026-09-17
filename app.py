@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 from datetime import date
 from dateutil.relativedelta import relativedelta
@@ -514,20 +514,4 @@ if st.button("🧮 TÍNH TOÁN", type="primary", use_container_width=True):
             use_container_width=True,
             hide_index=True
         )
-```
 
-### Cài thư viện
-
-```bash
-pip install streamlit python-dateutil
-```
-
-### Chạy app
-
-Lưu code thành **`app.py`**, sau đó mở Terminal/CMD tại thư mục chứa file và chạy:
-
-```bash
-streamlit run app.py
-```
-
-**Lưu ý:** Code trên đang dùng cách tính lãi đơn `gốc × lãi suất × số ngày / 365`. Phần **lãi trước** được tách riêng để tránh trường hợp app cộng tiền lãi đã nhận trước vào tiền gốc lần nữa.
