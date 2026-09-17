@@ -104,7 +104,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🏦 ỨNG DỤNG TÍNH LÃI TIỀN GỬI TIẾT KIỆM")
+st.title("🏦 ỨNG DỤNG TÍNH LÃI TIỀN GỬI TIẾT KIỆM_TRẦN YẾN NHI")
 st.caption("Công cụ mô phỏng tính tiền gốc và tiền lãi theo kỳ hạn")
 
 
