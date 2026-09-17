@@ -1,6 +1,6 @@
 
 import streamlit as st
-st.image("logo.jpg")
+st.image("LOGO.jpg")
 from datetime import date
 from dateutil.relativedelta import relativedelta
 import calendar
